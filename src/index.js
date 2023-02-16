@@ -8,10 +8,10 @@ module.exports = function check(str, bracketsConfig) {
           massiveStr.splice(i, 2);
           findPair();
         };
-        if(massiveStr.length === 0){
-          result = true;
-        };
       });
+      if(massiveStr.length === 0){
+        result = true;
+      };
     }
   };
   findPair();
